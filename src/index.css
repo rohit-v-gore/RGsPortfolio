@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 210 20% 97%;
+    --foreground: 210 15% 12%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 210 15% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 15% 12%;
+
+    --primary: 142 76% 32%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 18% 92%;
+    --secondary-foreground: 210 15% 20%;
+
+    --muted: 210 18% 90%;
+    --muted-foreground: 210 12% 35%;
+
+    --accent: 24 96% 48%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 210 16% 85%;
+    --input: 210 16% 80%;
+    --ring: 142 76% 32%;
+
+    --radius: 0.25rem;
+
+    --tactical-grid: 210 16% 88%;
+    --tactical-glow: 142 76% 32%;
+    --tactical-warning: 24 96% 48%;
+
+    --gradient-tactical: linear-gradient(135deg, hsl(142 76% 32% / 0.08), hsl(210 20% 97%));
+    --shadow-tactical: 0 0 30px hsl(142 76% 32% / 0.15);
+    --transition-smooth: all 0.28s cubic-bezier(0.42, 0, 0.2, 1);
+  }
+
+  .dark {
+    --background: 0 0% 3%;
+    --foreground: 0 0% 95%;
+
+    --card: 0 0% 7%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 0 0% 7%;
+    --popover-foreground: 0 0% 95%;
+
+    --primary: 142 76% 36%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 0 0% 12%;
+    --secondary-foreground: 0 0% 95%;
+
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 60%;
+
+    --accent: 24 95% 53%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 142 76% 36%;
+
+    --tactical-grid: 0 0% 12%;
+    --tactical-glow: 142 76% 36%;
+    --tactical-warning: 24 95% 53%;
+
+    --gradient-tactical: linear-gradient(135deg, hsl(142 76% 36% / 0.1), hsl(0 0% 7%));
+    --shadow-tactical: 0 0 30px hsl(142 76% 36% / 0.2);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    transition: var(--transition-smooth);
+  }
+}
