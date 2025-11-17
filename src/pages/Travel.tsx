@@ -61,8 +61,8 @@ const Travel = () => {
     },
   ];
 
-  const countriesVisited = ["United Kingdom", "Japan", "Australia", "Canada", "Mexico"];
-  const usCitiesVisited = ["San Diego, CA", "Panama City Beach, FL", "Washington, DC", "Los Angeles, CA", "New York, NY"];
+  const countriesVisited = ["Ireland","Netherlands","Jamaica","Portugal","Egypt","Taiwan","Switzerland","Iceland","France","Belgium","Italy","Indonesia","Japan","Peru","Costa Rica","Panama", "Aruba", "Mexico", "Canada", "India"];
+  const usCitiesVisited = ["San Diego, CA","Panama City Beach, FL", "Washington, DC", "Los Angeles, CA", "New York, NY","Honolulu, HI","Juneau, AK","Arlington, VA","Boston, MA","Baltimore, MD","Las Vegas, NV","New Orleans, LA","Seattle, WA","San Fransisco, CA", "Chicago, IL", "Wichita, KS"];
 
   return (
     <div className="min-h-screen bg-background">
@@ -72,8 +72,7 @@ const Travel = () => {
           <h1 className="mb-4 font-mono text-4xl font-bold text-foreground">TRAVEL</h1>
           <div className="h-1 w-20 bg-primary" />
           <p className="mt-4 max-w-3xl text-muted-foreground">
-            Recon log of the cities and countries I&apos;ve moved through. For now, we keep it simple:
-            a tactical world map snapshot ready for quick briefings.
+            A log of all of the places I have traveled. I would love to populate this more each year. Let's see if my career allows it.
           </p>
         </div>
 
@@ -114,9 +113,9 @@ const Travel = () => {
 
           <div className="flex flex-col gap-6 rounded-3xl border border-border bg-card/80 p-8 backdrop-blur">
             <div className="space-y-4">
-              <h3 className="font-mono text-lg font-semibold text-foreground">Country Logbook</h3>
+              <h3 className="font-mono text-lg font-semibold text-foreground">Visited Countries</h3>
               <p className="text-sm leading-relaxed text-muted-foreground">
-                A simple register of the countries I&apos;ve set foot in. Add new entries as the list grows.
+                My parents love to travel. They took us many places growing up. I have continued this hobby.
               </p>
               <div className="space-y-3">
                 {countriesVisited.map((country) => (
@@ -131,9 +130,9 @@ const Travel = () => {
             </div>
 
             <div className="space-y-4">
-              <h3 className="font-mono text-lg font-semibold text-foreground">U.S. Cities</h3>
+              <h3 className="font-mono text-lg font-semibold text-foreground">Visited U.S. Cities</h3>
               <p className="text-sm leading-relaxed text-muted-foreground">
-                Stateside checkpoints—training gigs, deployments, and travel that mattered.
+                My dad has been to like 47 US states. I feel like I need to get to 50 and visit more cities before him.
               </p>
               <div className="space-y-3">
                 {usCitiesVisited.map((city) => (

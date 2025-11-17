@@ -7,7 +7,7 @@ const Career = () => {
       title: "Forward Deployed Software Engineer ",
       company: "Textron Systems",
       period: "January 2024 - Present",
-      description: "Building software deployed on autonomous vessels for the US Navy that speiclaize in enemy mine countermeasures. I spend half of my time onsite at one of two surface warfare centers at Panama City Beach, FL or San Diego, CA",
+      description: "Building software deployed on autonomous vessels for the US Navy that specialize in enemy mine countermeasures. I spend half of my time onsite at one of two surface warfare centers at Panama City Beach, FL or San Diego, CA to demo new products or integrate new software builds onto our vehicles.",
     },
     {
       title: "Co-Founder/CEO",
@@ -25,7 +25,7 @@ const Career = () => {
       title: "Software Engineering Intern",
       company: "Textron Systems",
       period: "June 2023 - September 2023",
-      description: "Textron builds this huge hovercraft called the SSC and I worked on the software governing the power distribution to the onboard appliances from its generators. This was a fun internship because it was in New Orleans, a fun city I had never been to.",
+      description: "Textron builds this huge hovercraft called the SSC which transports military vehicles and equipement from ship to shore and I worked on the software governing the power distribution to the onboard appliances from its generators. This was a fun internship because it was in New Orleans, a fun city I had never been to.",
     },
     {
       title: "Software Engineering Intern",

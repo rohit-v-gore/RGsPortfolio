@@ -11,13 +11,13 @@ const Fitness = () => {
     },
     {
       name: "Baltimore Half Marathon",
-      frequency: "October 2025",
+      frequency: "October 2024",
       metric: "2:06:34",
       description: "My first half marathon since college ended and that post-grad fitness decline did hit here. Also a very hilly race.",
     },
     {
       name: "Army Ten Miler",
-      frequency: "October 2025",
+      frequency: "October 2024",
       metric: "1:26:04",
       description: "DC is not that hilly so I did not struggle with this one as much but I do want to do this one again sometime.",
     },
