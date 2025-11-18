@@ -43,7 +43,7 @@ const Index = () => {
             rohit-v-gore
           </h1>
           <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
-            This is where I store information about myself. Made it defense themed because I have spent my whole career in defense and embedded systems so far.
+            This is where I store information. It is military themed because it's cool.
           </p>
         </div>
 
