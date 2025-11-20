@@ -31,6 +31,49 @@ const App = () => (
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
+        <footer className="border-t border-border bg-background/80 py-10">
+          <div className="container mx-auto flex flex-wrap items-center gap-3 px-6 text-sm text-muted-foreground">
+            <p className="font-mono text-xs uppercase tracking-[0.4em] text-muted-foreground/80">CONTACT</p>
+            <div className="flex flex-wrap gap-2">
+              <a
+                href="https://github.com/rohit-v-gore"
+                target="_blank"
+                rel="noreferrer"
+                className="rounded-full border border-border bg-card/60 px-4 py-2 text-xs font-semibold uppercase tracking-[0.3em] text-foreground transition hover:border-primary hover:text-primary"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://x.com/rohitvgore"
+                target="_blank"
+                rel="noreferrer"
+                className="rounded-full border border-border bg-card/60 px-4 py-2 text-xs font-semibold uppercase tracking-[0.3em] text-foreground transition hover:border-primary hover:text-primary"
+              >
+                X
+              </a>
+              <a
+                href="https://www.linkedin.com/in/rohitvgore"
+                target="_blank"
+                rel="noreferrer"
+                className="rounded-full border border-border bg-card/60 px-4 py-2 text-xs font-semibold uppercase tracking-[0.3em] text-foreground transition hover:border-primary hover:text-primary"
+              >
+                LinkedIn
+              </a>
+              <a
+                href="tel:+13013798369"
+                className="rounded-full border border-border bg-card/60 px-4 py-2 text-xs font-semibold uppercase tracking-[0.3em] text-foreground transition hover:border-primary hover:text-primary"
+              >
+                Call
+              </a>
+              <a
+                href="mailto:rohitvivekgore@gmail.com"
+                className="rounded-full border border-border bg-card/60 px-4 py-2 text-xs font-semibold uppercase tracking-[0.3em] text-foreground transition hover:border-primary hover:text-primary"
+              >
+                Email
+              </a>
+            </div>
+          </div>
+        </footer>
       </TooltipProvider>
     </ThemeProvider>
   </QueryClientProvider>
