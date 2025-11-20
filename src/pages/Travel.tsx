@@ -27,6 +27,9 @@ const Travel = () => {
     { name: "Mexico", description: "<example>" },
     { name: "Canada", description: "<example>" },
     { name: "India", description: "<example>" },
+    { name: "UK", description: "<example>" },
+    { name: "Germany", description: "<example>" },
+    { name: "Bahamas", description: "<example>" },
   ];
 
   const usCitiesVisited: Location[] = [
